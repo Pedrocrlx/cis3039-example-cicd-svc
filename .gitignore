@@ -30,6 +30,8 @@ dist
 
 # Python Environments
 .env
+.env.*
+!.env.example
 .venv
 env/
 venv/
@@ -46,3 +48,13 @@ __pycache__/
 __blobstorage__
 __queuestorage__
 __azurite_db*__.json
+
+# Terraform local configuration, provider downloads and sensitive state/plan files
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log

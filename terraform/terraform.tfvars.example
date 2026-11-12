@@ -1,0 +1,6 @@
+subscription_id = "00000000-0000-0000-0000-000000000000"
+location        = "uksouth"
+name_prefix     = "shopping-lab-ab47"
+
+# Add your frontend origins if browser access is needed.
+cors_allowed_origins = []
