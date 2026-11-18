@@ -4,6 +4,8 @@ csx
 .vs
 edge
 Publish
+coverage
+.vitest
 
 *.user
 *.suo

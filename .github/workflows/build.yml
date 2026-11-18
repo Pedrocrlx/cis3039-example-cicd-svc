@@ -30,6 +30,9 @@ jobs:
       - name: Build (into ./dist)
         run: npm run build
 
+      - name: Vitest
+        run: npm run test
+
       - name: Publish function app to package folder
         run: |
           # make an empty package folder
